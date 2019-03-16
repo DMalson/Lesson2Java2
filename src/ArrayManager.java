@@ -23,9 +23,6 @@ public class ArrayManager  {
         } catch (Exception e) {
             throw new MyArrayDataException(i,j);
         }
-
         return arrSum;
     }
-
-
 }
