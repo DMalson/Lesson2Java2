@@ -25,8 +25,8 @@ public class ProgramLauncher {
         System.out.println("Массив строк 4 х 4");
         printArray(testArray3);
         doTask(testArray3);
-
     }
+
 
     // Заполнение тестового массива значениями
     public static void fillArray(String testArray[][], boolean intOnly) {
@@ -70,5 +70,4 @@ public class ProgramLauncher {
         }
         System.out.println();
     }
-
 }
