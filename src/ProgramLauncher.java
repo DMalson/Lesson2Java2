@@ -62,7 +62,7 @@ public class ProgramLauncher {
         } catch (MyArraySizeException e) {
             System.out.println("Перехвачен MyArraySizeException. Размер массива не соотвествует требуемому");
         } catch (MyArrayDataException e) {
-            System.out.println("Перехвачен MyArraySizeException. Ошибка преобразования." + '\n' +
+            System.out.println("Перехвачен MyArrayDataException. Ошибка преобразования." + '\n' +
                     "Строка " + e.getRow() + ", столбец " + e.getColumn() +  '\n' +
                     "Значение \'" + testArray[e.getRow()][e.getColumn()] + "\'");
         } catch (Exception e) {
